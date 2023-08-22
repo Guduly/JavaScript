@@ -4,6 +4,7 @@
  * @param {number} n
  * @returns {number} Log2 approximation equal to floor(log2(n))
  */
+
 export const logTwo = (n) => {
   let result = 0
   while (n >> 1) {
